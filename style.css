@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #eee;
+}
+
+main{
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    /* 1º Valor (-)Esquerda e (+)Direita
+    2º valor (-)Cima e (+)Baixo
+    3º valor Suavidade */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+h1{ color: #333; }
+p{ color: #666; }
+
+label, input{
+    display: inline-block;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+label{
+    width: calc(30%);
+    font-weight: bold;
+}
+
+input{
+    width: calc(70% - 30px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.botoes{
+    text-align: right;
+    margin-top: 20px;
+}
+
+button{
+    background-color: #1a67ec;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #103b85;
+}
+/*
+.laranja{
+    background-color: #cf6b0e;
+}
+
+.laranja:hover{    
+    background-color: rgb(138, 72, 11);
+    padding: 60px;
+}*/
+
+button[type="reset"]{
+    background-color: #06690d;
+}
+button[type="reset"]:hover{
+    background-color: #032905;
+}
