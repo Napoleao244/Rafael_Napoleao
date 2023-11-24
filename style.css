@@ -8,9 +8,6 @@ main{
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
-    /* 1º Valor (-)Esquerda e (+)Direita
-    2º valor (-)Cima e (+)Baixo
-    3º valor Suavidade */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
     border-radius: 10px;
 }
@@ -52,12 +49,12 @@ button{
 button:hover{
     background-color: #103b85;
 }
-/*
-.laranja{
+
+laranja{
     background-color: #cf6b0e;
 }
 
-.laranja:hover{    
+laranja:hover{    
     background-color: rgb(138, 72, 11);
     padding: 60px;
 }*/
